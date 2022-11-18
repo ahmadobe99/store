@@ -28,7 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
       backgroundColor: kPrimaryColor,
       elevation: 0,
       title: Text(
-        "Welcome to electronically store",
+        "Welcome to Pets store",
         style: GoogleFonts.getFont("Roboto",
             fontWeight: FontWeight.bold, fontSize: 20),
       ),

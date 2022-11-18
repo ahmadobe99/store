@@ -63,17 +63,7 @@ class DetailsBody extends StatelessWidget {
             ],
           ),
         ),
-        Container(
-          margin: EdgeInsets.symmetric(vertical: kDefaultPadding / 2),
-          padding: EdgeInsets.symmetric(
-            horizontal: kDefaultPadding * 1.5,
-            vertical: kDefaultPadding / 2,
-          ),
-          child: Text(
-            "${product!.description}",
-            style: TextStyle(color: Colors.white, fontSize: 19.0),
-          ),
-        ),
+       
       ],
     );
   }

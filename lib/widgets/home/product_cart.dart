@@ -79,16 +79,6 @@ class productCard extends StatelessWidget {
                     ),
                     Spacer(),
                     Padding(
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: kDefaultPadding,
-                      ),
-                      child: Text(
-                        "${product.subTitle}",
-                        style: Theme.of(context).textTheme.caption,
-                      ),
-                    ),
-                    Spacer(),
-                    Padding(
                       padding: const EdgeInsets.all(kDefaultPadding),
                       child: Container(
                         padding: const EdgeInsets.symmetric(
